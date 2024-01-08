@@ -1,10 +1,11 @@
-import './App.css'
+import RouteConfig from "./route";
+import './App.css';
 
 function App() {
 
   return (
     <>
-     Rita......
+     <RouteConfig />
     </>
   )
 }
