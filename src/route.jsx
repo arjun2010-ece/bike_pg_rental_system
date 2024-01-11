@@ -10,11 +10,13 @@ import ContactPage from './pages/Contact';
 const RouteConfig = () => {
   return (
     <Router>
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      {/* <Footer /> */}
     </Router>
   );
 };

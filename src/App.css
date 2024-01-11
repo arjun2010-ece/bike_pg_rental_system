@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section{
+  border: 2px solid blue;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
