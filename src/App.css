@@ -10,3 +10,12 @@ section{
   padding: 1rem;
   text-align: center;
 }
+
+.active{
+  color: green;
+}
+
+.sect{
+  display: flex;
+  gap: 2rem;
+}

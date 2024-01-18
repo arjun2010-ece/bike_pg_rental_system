@@ -1,4 +1,3 @@
-
 const HomePage = () => {
   return (
     <main>
@@ -6,9 +5,11 @@ const HomePage = () => {
       <section> section 2</section>
       <section> section 3</section>
       <section> section 4</section>
-      <section> section 5</section>
-    </main>
-  )
-}
+      <section>section 5</section>
 
-export default HomePage
+      {/* <img src="/man.jpg" alt="image title" width={400}  height={500} /> */}
+    </main>
+  );
+};
+
+export default HomePage;

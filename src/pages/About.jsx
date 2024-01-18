@@ -1,6 +1,6 @@
 
 const AboutPage = () => {
-  return (
+return (
     <main>
       <section> section 1 about</section>
       <section> section 2 about</section>
