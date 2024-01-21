@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;    
+ }
+
+ h1{
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ p{
+    font-family: 'Open Sans', sans-serif;
+    width: 600px;
+    padding-top: 1.7rem;
+    line-height: 1.8rem;
+ }
+
+ .btn ul{
+   display: flex;
+   gap: 2rem;
+   list-style-type: none;
+ }
+
+ button{
+   border-radius: 12px;
+   border: 1px dashed black;
+   margin-top: 3rem;
+   padding: .5rem;
+   background-color: #FDFFFC;
+}
+
+button a{
+    color: #F06543;
+ }

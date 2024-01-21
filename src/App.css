@@ -12,10 +12,11 @@ section{
 }
 
 .active{
-  color: green;
+  color: rgb(145, 33, 33);
 }
 
-.sect{
-  display: flex;
-  gap: 2rem;
+body{
+  background-color: #BFBCCB;
+  height: 100vh;
 }
+

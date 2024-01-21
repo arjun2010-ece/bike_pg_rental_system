@@ -1,15 +1,27 @@
+import './Header.css';
 import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   return (
-    <div className="sect">
+    <div className="container">
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
+          Home
+        </NavLink>
+
+
         <NavLink
           to="/about"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          About page
+          About
         </NavLink>
 
         <NavLink
@@ -18,7 +30,16 @@ const Header = () => {
              isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          contact page
+          Contact-Us
+
+        </NavLink>
+        <NavLink
+          to="/service"
+          className={({ isActive, isPending }) =>
+             isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
+          Service
         </NavLink>
     </div>
   )
