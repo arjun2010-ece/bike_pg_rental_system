@@ -1,32 +1,29 @@
-import './Home.css';
-import {Link } from 'react-router-dom';
-
+import "./Home.css";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <main className='main'>
-       <div className="head">
-         <h1>"Dream Rides & CozyStays:Unleash your journeys with Us!"</h1>
-       </div>
+    <main className="main">
+      <div className="head">
+        <h1>Dream Rides & CozyStays:Unleash your journeys with Us!</h1>
+      </div>
 
-       <div className="para">
-         <p>"DreamRides & CozyStays" is your all-encompassing solution for an unparalleled travel experience. We bring together the thrill of exploration and the comfort of a home away from home, ensuring that every journey becomes an unforgettable adventure.</p>
-       </div>
+      <p className="home-text">
+        DreamRides & CozyStays is your all-encompassing solution for an
+        unparalleled travel experience. We bring together the thrill of
+        exploration and the comfort of a home away from home, ensuring that
+        every journey becomes an unforgettable adventure.
+      </p>
 
-       <div className="btn">
-         <ul>
-           <li>
-             <button><Link to='./pg'>PG Rental</Link></button>
-           </li>
+        <ul className="site-navigation">
+          <li>
+            <Link to="/pg-rental">PG Rental</Link>
+          </li>
 
-           <li>
-              <button><Link to='./bike'>Bike Rental</Link></button>
-           </li>
-
-
-
-         </ul>
-       </div>
+          <li>
+            <Link to="/bike-rental">Bike Rental</Link>
+          </li>
+        </ul>
       {/* <img src="/man.jpg" alt="image title" width={400}  height={500} /> */}
     </main>
   );

@@ -1,16 +1,14 @@
-.container{
-    /* width: 1250px; */
-    display: flex;
-    justify-content: right;
-    gap: 2rem;
-    background-color: #BFBCCB;
-    padding: .6rem;
-    background-color: #fff;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #bfbccb;
+  background-color: #fff;
+  font-size: 20px;
+}
 
-  a{
-    font-size: 1.7rem;
-    text-decoration: none;
-  }
-
-  
+.navbar{
+  display: flex;
+  gap: 2rem;
+}

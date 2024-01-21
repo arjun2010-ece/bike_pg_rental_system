@@ -1,10 +1,13 @@
-import './Header.css';
-import { NavLink } from "react-router-dom";
-
+import "./Header.css";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container">
+    <header className="container">
+      <Link to="/">
+        Bike/PG rental
+      </Link>
+      <div className="navbar">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
@@ -13,7 +16,6 @@ const Header = () => {
         >
           Home
         </NavLink>
-
 
         <NavLink
           to="/about"
@@ -27,22 +29,23 @@ const Header = () => {
         <NavLink
           to="/contact"
           className={({ isActive, isPending }) =>
-             isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : ""
           }
         >
           Contact-Us
-
         </NavLink>
+
         <NavLink
           to="/service"
           className={({ isActive, isPending }) =>
-             isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : ""
           }
         >
           Service
         </NavLink>
-    </div>
-  )
-}
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;

@@ -1,15 +1,15 @@
 // Import necessary components from react-router-dom
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import your page components
-import HomePage from './pages/Home';
-import AboutPage from './pages/About';
-import ContactPage from './pages/Contact';
-import Header from './pages/Header';
-import BikePage from './pages/Bike';
-import PGPage from './pages/PG';
-import ServicePage from './pages/Service';
-
+import HomePage from "./pages/Home";
+import AboutPage from "./pages/About";
+import ContactPage from "./pages/Contact";
+import Header from "./pages/Header";
+import BikeRentalHomePage from "./pages/Bike-rental";
+import BikeRentPage from "./pages/Bike-rent";
+import PGRentalPage from "./pages/PG-rental";
+import ServicePage from "./pages/Service";
 
 // Define the RouteConfig component
 const RouteConfig = () => {
@@ -20,8 +20,9 @@ const RouteConfig = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/bike" element={<BikePage />} />
-        <Route path="/pg" element={<PGPage />} />
+        <Route path="/bike-rental" element={<BikeRentalHomePage />} />
+        <Route path="/bike-rental/rent" element={<BikeRentPage />} />
+        <Route path="/pg-rental" element={<PGRentalPage />} />
         <Route path="/service" element={<ServicePage />} />
       </Routes>
       {/* <Footer /> */}
