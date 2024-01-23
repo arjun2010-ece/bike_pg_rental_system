@@ -1,14 +1,19 @@
-header {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 55px;
   background-color: #bfbccb;
   background-color: #fff;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .navbar{
   display: flex;
   gap: 2rem;
+  height: 20px;
+}
+
+.container a{
+  text-decoration: none;
 }

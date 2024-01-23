@@ -6,7 +6,7 @@ const BikeRentalPage = () => {
     <div className="bikes-page">
       <ul className="bike-rentals">
         <li>
-          <Link to="/bike-rental/rent">Bike Rents</Link>
+          <Link to="/bike-rental/home">Bike Homepage</Link>
         </li>
         <li>
           <Link to="/bike-rental/admin">Bike Rental Admin</Link>

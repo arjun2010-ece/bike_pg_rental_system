@@ -9,13 +9,6 @@
   padding-right: 20px;
 }
 
-section{
-  border: 2px solid blue;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  text-align: center;
-}
-
 .active{
   color: rgb(145, 33, 33);
 }

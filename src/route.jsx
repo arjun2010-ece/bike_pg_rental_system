@@ -5,11 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
-import Header from "./pages/Header";
-import BikeRentalHomePage from "./pages/Bike-rental";
-import BikeRentPage from "./pages/Bike-rent";
-import PGRentalPage from "./pages/PG-rental";
 import ServicePage from "./pages/Service";
+import Header from "./pages/Header";
+import BikeRentalPage from "./pages/Bike-rental";
+import BikeRentPage from "./pages/Bike-Homepage";
+import BikeAdminPage from "./pages/Bike-AdminPage";
+import PGRentalPage from "./pages/PG-rental";
+import PGRentPage from "./pages/PG-Homepage";
+// import PGAdminpage from "./pages/PG-Adminpage";
 
 // Define the RouteConfig component
 const RouteConfig = () => {
@@ -20,10 +23,13 @@ const RouteConfig = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/bike-rental" element={<BikeRentalHomePage />} />
-        <Route path="/bike-rental/rent" element={<BikeRentPage />} />
-        <Route path="/pg-rental" element={<PGRentalPage />} />
         <Route path="/service" element={<ServicePage />} />
+        <Route path="/bike-rental" element={<BikeRentalPage />} />
+        <Route path="/bike-rental/home" element={<BikeRentPage />} />
+        <Route path="/bike-rental/admin" element={<BikeAdminPage />} />
+        <Route path="/pg-rental" element={<PGRentalPage />} />
+        <Route path="/pg-rental/home" element={<PGRentPage />} />
+        {/* <Route path="/pg-rental/admin" element={<PGRentalAdminPage />} /> */}
       </Routes>
       {/* <Footer /> */}
     </Router>

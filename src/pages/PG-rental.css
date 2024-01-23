@@ -1,0 +1,23 @@
+.pg-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh - 60px); */
+    height: 40vh;
+}
+
+
+.pg-rentals {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.pg-rentals li {
+  border: 1px solid black;
+  padding: 8px 15px;
+}
+
+.pg-rentals li a {
+  text-decoration: none;
+}

@@ -1,7 +1,7 @@
 .main{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;    
  }
@@ -10,37 +10,28 @@
    font-family: 'Open Sans', sans-serif;
  }
 
- .home-text{
+.home-text{
     font-family: 'Open Sans', sans-serif;
     width: 600px;
     padding-top: 1.7rem;
     line-height: 1.8rem;
  }
 
- .site-navigation{
+.site-navigation{
   display: flex;
   gap: 1.5rem;
   list-style-type: none;
  }
 
- .site-navigation li{
-  border: 1px solid black;
-  padding: 8px 15px;
- }
-
- .site-navigation li a{
- text-decoration: none;
- }
-
- 
- /* button{
-   border-radius: 12px;
-   border: 1px dashed black;
-   margin-top: 3rem;
-   padding: .5rem;
-   background-color: #FDFFFC;
+.site-navigation li{
+  border: 1px dashed black;
+  padding: 12px 12px;
+  margin-top: 1rem;
+  background-color: #FDFFFC;
 }
 
-button a{
-    color: #F06543;
- } */
+.site-navigation li a{
+   text-decoration: none;
+   color: #F06543;
+   font-size: 1.7rem;
+ }
