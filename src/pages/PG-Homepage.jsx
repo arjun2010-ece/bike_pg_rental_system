@@ -1,42 +1,19 @@
+import { Fragment } from "react";
+import CardList from "../components/CardList";
+import "./PG-Homepage.css";
+
+
 const PGRentPage = () => {
-  return (
-    <>
-       <div className="item-list">
-        <ul>
-          <li>
-            <p>PG 1</p>
-            <button>Book</button>
-          </li>
-
-          <li>
-            <p>PG 2</p>
-            <button>Book</button>
-          </li>
-
-          <li>
-            <p>PG 3</p>
-            <button>Book</button>
-          </li>
-
-          <li>
-            <p>PG 4</p>
-            <button>Book</button>
-          </li>
-
-          <li>
-            <p>PG 5</p>
-            <button>Book</button>
-          </li>
-
-          <li>
-            <p>PG 6</p>
-            <button>Book</button>
-          </li>
-        </ul>
-      </div>
-
-    </>
-  )
+    return (
+      <Fragment>
+        <div className="item-list">
+          <img src="../image/bedroom2.jpg" alt="bedroom image" />    
+          <q className="pg-home-text">Find a home far from HOME</q>
+        </div>
+    
+       <CardList />
+      </Fragment>
+    )
 }
 
 export default PGRentPage;

@@ -6,15 +6,18 @@
     align-items: center;    
  }
 
- h1{
-   font-family: 'Open Sans', sans-serif;
+ .heading{
+   /* font-family: 'Open Sans', sans-serif; */
+   color: #606c38;
  }
 
 .home-text{
     font-family: 'Open Sans', sans-serif;
+    color: #b42e2e;
     width: 600px;
     padding-top: 1.7rem;
     line-height: 1.8rem;
+    font-size: 1.2rem;
  }
 
 .site-navigation{

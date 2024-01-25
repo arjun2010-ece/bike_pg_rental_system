@@ -5,15 +5,15 @@ const HomePage = () => {
   return (
     <main className="main">
       <div className="head">
-        <h1>Dream Rides & CozyStays:Unleash your journeys with Us!</h1>
+        <h1 className="heading">Dream Rides & CozyStays:Unleash your journeys with Us!</h1>
       </div>
 
-      <p className="home-text">
+      <q className="home-text">
         DreamRides & CozyStays is your all-encompassing solution for an
         unparalleled travel experience. We bring together the thrill of
         exploration and the comfort of a home away from home, ensuring that
         every journey becomes an unforgettable adventure.
-      </p>
+      </q>
 
         <ul className="site-navigation">
           <li>
