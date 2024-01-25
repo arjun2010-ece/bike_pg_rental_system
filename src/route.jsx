@@ -9,7 +9,7 @@ import ServicePage from "./pages/Service";
 import Header from "./pages/Header";
 import BikeRentalPage from "./pages/Bike-rental";
 import BikeRentPage from "./pages/Bike-Homepage";
-import BikeAdminPage from "./pages/Bike-AdminPage";
+import BikeAdminPage from "./pages/Bike-Adminpage";
 import PGRentalPage from "./pages/PG-rental";
 import PGRentPage from "./pages/PG-Homepage";
 // import PGAdminpage from "./pages/PG-Adminpage";
@@ -37,3 +37,27 @@ const RouteConfig = () => {
 };
 
 export default RouteConfig;
+
+
+// signup form page (/pg-rental/admin)
+
+// Name
+// Age
+// Sex
+// email
+// password
+// confirmpassword
+
+// Link : Login (clicking will take you to login page)
+
+// submit button
+
+
+// Login form: login page (/pg-rental/admin/login)
+
+// email
+// password
+
+// Link : Signup (clicking will take you to Signup page)
+
+// submit button
