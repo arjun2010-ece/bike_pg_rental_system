@@ -1,0 +1,11 @@
+/* .card img{
+    max-width: 100%;
+    width: 370px;
+    height: 140px;
+} */
+
+.bike-item-list{
+    background-image: url(/public/image/bike1.jpg);
+    background-size: cover;
+    height: 400px;
+}

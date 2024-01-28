@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <main className="main">
       <div className="head">
-        <h1 className="heading">Dream Rides & CozyStays:Unleash your journeys with Us!</h1>
+        <h1 className="heading">Ride,Rest and Repeat</h1>
       </div>
 
       <q className="home-text">

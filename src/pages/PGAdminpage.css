@@ -1,0 +1,33 @@
+.pg-admin-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}
+
+.admin-form{
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: #444;
+    height: 410px;
+    width: 400px;
+}
+
+input{
+    cursor: pointer;
+    border-style: none;
+    border-radius: 16px;
+    padding: .3rem;
+}
+
+.form a{
+    border: 3px solid green;
+    padding: .3rem 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    /* text-align: center; */
+    color: #fff;
+    /* display: flex;
+    justify-content: center;
+    width: 20rem; */
+}

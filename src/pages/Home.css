@@ -14,10 +14,21 @@
 .home-text{
     font-family: 'Open Sans', sans-serif;
     color: #b42e2e;
-    width: 600px;
-    padding-top: 1.7rem;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
+    width: 780px;
+    text-align: justify;
+    padding: 1.7rem 9.4rem 1rem 9.4rem;
+    line-height: 2.1rem;
+    font-size: 1.1rem;
+ }
+
+ @media (max-width: 500px) {
+  .home-text{
+    /* text-align: left; */
+    padding: 1.7rem .7rem 1rem .7rem;
+    font-size: .9rem;
+    width: 303px;
+    line-height: 1.7;
+  }
  }
 
 .site-navigation{
@@ -28,7 +39,7 @@
 
 .site-navigation li{
   border: 1px dashed black;
-  padding: 12px 12px;
+  padding: 8px;
   margin-top: 1rem;
   background-color: #FDFFFC;
 }
@@ -36,5 +47,5 @@
 .site-navigation li a{
    text-decoration: none;
    color: #F06543;
-   font-size: 1.7rem;
+   font-size: 1.5rem;
  }

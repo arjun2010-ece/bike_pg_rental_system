@@ -3,14 +3,23 @@ img{
     height: auto;
 }
 
-.item-list .pg-home-text{
-   position: relative;
-   bottom: 330px;
-   left: 36%;
-   color: #de1313;
-   font-size: 1.6rem;
+.pg-item-list{
+    background-image: url(/public/image/bedroom2.jpg);
+    background-size: cover;
+    height: 400px;
 }
 
-.image{
-    width: 250px;
+.pg-item-list .pg-home-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 345px;
+    color: #de1313;
+    font-size: 1.8rem;  
+}
+
+@media (max-width: 700px){
+    .item-list .pg-home-text{
+        height: 320px;
+    }
 }
