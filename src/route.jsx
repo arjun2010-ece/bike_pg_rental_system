@@ -9,8 +9,12 @@ import ServicePage from "./pages/Service";
 import Header from "./pages/Header";
 import BikeRentalPage from "./pages/Bike-rental";
 import BikeRentPage from "./pages/Bike-Homepage";
+<<<<<<< HEAD
 import BikeAdminpage from "./pages/Bike-Adminpage";
 import BikeAdminpageLogin from "./pages/Bike-AdminpageLogin";
+=======
+import BikeAdminPage from "./pages/Bike-Adminpage";
+>>>>>>> 674ef2cce19e2d38f9c4a0f9c91b373df4e85eea
 import PGRentalPage from "./pages/PG-rental";
 import PGRentPage from "./pages/PG-Homepage";
 import PGAdminpage from "./pages/PG-Adminpage";
@@ -41,3 +45,27 @@ const RouteConfig = () => {
 };
 
 export default RouteConfig;
+
+
+// signup form page (/pg-rental/admin)
+
+// Name
+// Age
+// Sex
+// email
+// password
+// confirmpassword
+
+// Link : Login (clicking will take you to login page)
+
+// submit button
+
+
+// Login form: login page (/pg-rental/admin/login)
+
+// email
+// password
+
+// Link : Signup (clicking will take you to Signup page)
+
+// submit button

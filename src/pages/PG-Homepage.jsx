@@ -2,8 +2,8 @@ import { Fragment } from "react";
 import CardList from "../components/CardList";
 import "./PG-Homepage.css";
 
-
 const PGRentPage = () => {
+<<<<<<< HEAD
   const pgData = [
     { id: 1, title: 'Modern PG', description: 'Kabir Nagar Chauraha', imageUrl: '../image/pg1.jpg' },
     { id: 1, title: 'Krishna PG', description: 'In Durgakund', imageUrl: '../image/pg9.jpeg' },
@@ -25,6 +25,20 @@ const PGRentPage = () => {
       <CardList data={pgData} />
       {/* Other PG-related components */}
     </div>
+  );
+};
+=======
+  return (
+    <Fragment>
+      <div className="item-list">
+        <img src="../image/bedroom2.jpg" alt="bedroom image" />
+        <q className="pg-home-text">Find a home far from HOME</q>
+      </div>
+>>>>>>> 674ef2cce19e2d38f9c4a0f9c91b373df4e85eea
+
+      <CardList />
+      
+    </Fragment>
   );
 };
 
