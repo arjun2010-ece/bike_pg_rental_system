@@ -9,12 +9,8 @@ import ServicePage from "./pages/Service";
 import Header from "./pages/Header";
 import BikeRentalPage from "./pages/Bike-rental";
 import BikeRentPage from "./pages/Bike-Homepage";
-<<<<<<< HEAD
 import BikeAdminpage from "./pages/Bike-Adminpage";
 import BikeAdminpageLogin from "./pages/Bike-AdminpageLogin";
-=======
-import BikeAdminPage from "./pages/Bike-Adminpage";
->>>>>>> 674ef2cce19e2d38f9c4a0f9c91b373df4e85eea
 import PGRentalPage from "./pages/PG-rental";
 import PGRentPage from "./pages/PG-Homepage";
 import PGAdminpage from "./pages/PG-Adminpage";
