@@ -5,7 +5,8 @@
 } */
 
 .bike-item-list{
-    background-image: url(/public/image/bike1.jpg);
+    background-image: url(/image/bike1.jpg);
     background-size: cover;
     height: 400px;
+    cursor: pointer;
 }

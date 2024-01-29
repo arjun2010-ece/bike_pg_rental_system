@@ -3,25 +3,38 @@
     border-radius: 8px;
     /* padding: 16px; */
     margin: 4px;
+    cursor: pointer;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 1s linear ease-in-out;
+}
+
+  .card:hover{
+    transform:scaleY(1.14);
   }
 
   .card-content{
     background-color: green;
-    color: yellow;
     text-align: center;
   }
   
   .card-content h2{
-    font-size: 1.4rem;
+    color: yellow;
+    font-size: 1.2rem;
     font-weight: 900;
     border-bottom: 4px dashed rgb(129, 139, 114);
   }
 
-  .card-content p{
+  .card-content .heading{
+    color: yellow;
     font-size: .95rem;
     padding-bottom: 1rem;
+  }
+
+  .card-content .heading .desc{
+    color: #444;
+    font-weight: bold;
+    padding-left: .6rem;
   }
 
   .card img{
