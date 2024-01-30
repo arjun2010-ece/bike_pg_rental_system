@@ -1,31 +1,75 @@
-import "./Home.css";
 import { Link } from "react-router-dom";
+import { useState,useEffect } from "react";
+import "./Home.css";
+
+
+const images = [
+  '/image/bike-ride8.jpg',
+  '/image/bike-ride1.jpg',
+  '/image/bike-ride7.jpg',
+  '/image/bike-ride2.jpg',
+  '/image/bike-ride3.jpg',
+  '/image/room1.jpg',
+  '/image/room2.avif',
+  '/image/room3.jpg',
+  '/image/room4.jpg',
+  '/image/room5.png',
+  // Add more image URLs as needed
+];
 
 const HomePage = () => {
+  const [currentImage, setCurrentImage] = useState(0)
+  
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+    }, 2000);
+
+    // Cleanup the interval when the component is unmounted
+    return () => clearInterval(intervalId);
+  }, []); // Empty dependency array ensures the effect runs only once on mount
+  
+
   return (
-    <main className="main">
-      <div className="head">
-        <h1 className="heading">Ride,Rest and Repeat</h1>
-      </div>
+    <>  
+      <div className="home-container">
+        <marquee> <span className="txt">WELCOME TO THE PAGE </span> </marquee>
+        {/* image transition */}
+        <div className="image-scroll">
+          <div className="images-container" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
+            {images.map((imageUrl, index) => (
+              <div key={index} className="image">
+                <img src={imageUrl} alt={`Image ${index + 1}`} />
+               </div>
+            ))}
+          </div>
+        </div>
+      
+        {/* main content */}
+          <main className="main">
+            <div className="head">
+              <h1 className="heading">Ride,Rest and Repeat</h1>
+            </div>
 
-      <q className="home-text">
-        DreamRides & CozyStays is your all-encompassing solution for an
-        unparalleled travel experience. We bring together the thrill of
-        exploration and the comfort of a home away from home, ensuring that
-        every journey becomes an unforgettable adventure.
-      </q>
+            <q className="home-text">
+              DreamRides & CozyStays is your all-encompassing solution for an
+              unparalleled travel experience. We bring together the thrill of
+              exploration and the comfort of a home away from home, ensuring that
+            every journey becomes an unforgettable adventure.
+            </q>
 
-        <ul className="site-navigation">
-          <li>
-            <Link to="/pg-rental">PG Rental</Link>
-          </li>
+            <ul className="site-navigation">
+              <li>
+                <Link to="/pg-rental">PG Rental</Link>
+              </li>
 
-          <li>
-            <Link to="/bike-rental">Bike Rental</Link>
-          </li>
-        </ul>
-      {/* <img src="/man.jpg" alt="image title" width={400}  height={500} /> */}
-    </main>
+              <li>
+                <Link to="/bike-rental">Bike Rental</Link>
+              </li>
+            </ul>
+          </main>
+        </div>
+    </>
   );
 };
 
