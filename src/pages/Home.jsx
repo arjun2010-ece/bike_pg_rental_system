@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
     <>  
       <div className="home-container">
-        <marquee> <span className="txt">WELCOME TO THE PAGE </span> </marquee>
+        <marquee> <span className="txt">"Rev Up Life, Settle In Style: Your Ride, Your Stay – Welcome Home!"</span> </marquee>
         {/* image transition */}
         <div className="image-scroll">
           <div className="images-container" style={{ transform: `translateX(-${currentImage * 100}%)` }}>

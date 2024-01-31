@@ -5,10 +5,13 @@
     height: 91vh;
 }
 
-.admin-form{
+.bike-admin{
     border-radius: 8px;
     padding: 2rem;
     background-color: #444;
-    height: 360px;
+    opacity: .66;
     width: 400px;
+    height: 230px;
+    cursor: pointer;
 }
+

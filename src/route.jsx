@@ -10,10 +10,12 @@ import Header from "./pages/Header";
 import BikeRentalPage from "./pages/Bike-rental";
 import BikeRentPage from "./pages/Bike-Homepage";
 import BikeAdminpage from "./pages/Bike-Adminpage";
+import BikeAdminpageSignup from "./pages/Bike-AdminpageSignup";
 import BikeAdminpageLogin from "./pages/Bike-AdminpageLogin";
 import PGRentalPage from "./pages/PG-rental";
 import PGRentPage from "./pages/PG-Homepage";
 import PGAdminpage from "./pages/PG-Adminpage";
+import PGAdminpageSignup from "./pages/PG-AdminpageSignup";
 import PGAdminpageLogin from "./pages/PG-AdminpageLogin";
 
 // Define the RouteConfig component
@@ -29,10 +31,12 @@ const RouteConfig = () => {
         <Route path="/bike-rental" element={<BikeRentalPage />} />
         <Route path="/bike-rental/home" element={<BikeRentPage />} />
         <Route path="/bike-rental/admin" element={<BikeAdminpage />} />
+        <Route path="/bike-rental/admin/signup" element={< BikeAdminpageSignup />} />
         <Route path="/bike-rental/admin/login" element={<BikeAdminpageLogin />} />
         <Route path="/pg-rental" element={<PGRentalPage />} />
         <Route path="/pg-rental/home" element={<PGRentPage />} />
         <Route path="/pg-rental/admin" element={<PGAdminpage />} />
+        <Route path="/pg-rental/admin/signup" element={< PGAdminpageSignup />} />
         <Route path="/pg-rental/admin/login" element={<PGAdminpageLogin />} />
       </Routes>
       {/* <Footer /> */}
