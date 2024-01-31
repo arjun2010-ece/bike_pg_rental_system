@@ -35,7 +35,7 @@ const RouteConfig = () => {
         <Route path="/bike-rental/admin/login" element={<BikeAdminpageLogin />} />
         <Route path="/pg-rental" element={<PGRentalPage />} />
         <Route path="/pg-rental/home" element={<PGRentPage />} />
-        <Route path="/pg-rental/admin" element={<PGAdminpage />} />
+        {/* <Route path="/pg-rental/admin/sample" element={<PGAdminpage />} /> */}
         <Route path="/pg-rental/admin/signup" element={< PGAdminpageSignup />} />
         <Route path="/pg-rental/admin/login" element={<PGAdminpageLogin />} />
       </Routes>

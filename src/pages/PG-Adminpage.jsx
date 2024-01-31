@@ -24,7 +24,7 @@ const PGAdminpage = () => {
         {/* <Link to="/pg-rental/admin/login">Log in</Link>
         <Link to="/pg-rental/admin/signup">Register now</Link> */}
         <div className="btn-group">
-          <button>Log in</button>
+          <Link to="/pg-rental/admin/login">Login</Link>
           <button>Register</button>
         </div>
       </form>

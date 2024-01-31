@@ -11,7 +11,7 @@ const PGRentalPage = () => {
             <Link to="/pg-rental/home">PG Homepage</Link>
           </li>
           <li>
-            <Link to="/pg-rental/admin">PG Rental Admin</Link>
+            <Link to="/pg-rental/admin/signup">PG Rental Admin</Link>
           </li>
         </ul>
       </div>

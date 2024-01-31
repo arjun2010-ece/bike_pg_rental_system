@@ -21,16 +21,8 @@ input{
     width: 100%;
 }
 
-.form a{
-    border: 3px solid green;
-    padding: .3rem 1rem;
-    border-radius: 15px;
-    text-decoration: none;
-    /* text-align: center; */
-    color: #fff;
-    /* display: flex;
-    justify-content: center;
-    width: 20rem; */
+form a{
+    color: white;
 }
 
 .form-group{
@@ -46,6 +38,7 @@ input{
 
 .btn-group{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 1rem;
 }
@@ -55,4 +48,5 @@ input{
    border-radius: 4px;
    outline: none;
    border: 0;
+   cursor: pointer;
 }
