@@ -7,19 +7,18 @@
 
 .pg-admin{
     border-radius: 8px;
-    padding: 2rem;
+    padding: 4rem;
     background-color: #444;
     opacity: .7;
-    height: 230px;
-    width: 400px;
     cursor: pointer;
 }
 
 input{
-    cursor: pointer;
-    border-style: none;
-    border-radius: 16px;
+    /* border-style: none; */
+    /* border-radius: 16px; */
     padding: .3rem;
+    outline: none;
+    width: 100%;
 }
 
 .form a{
@@ -32,4 +31,28 @@ input{
     /* display: flex;
     justify-content: center;
     width: 20rem; */
+}
+
+.form-group{
+    /* border: 1px solid black; */
+    margin-bottom: 1.2rem;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-group button{
+   padding: 4px 14px;
+   border-radius: 4px;
+   outline: none;
+   border: 0;
 }
