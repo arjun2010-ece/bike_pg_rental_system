@@ -2,21 +2,26 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import your page components
+
+// Generic page
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
 import ServicePage from "./pages/Service";
+
 import Header from "./pages/Header";
-import BikeRentalPage from "./pages/Bike-rental";
-import BikeRentPage from "./pages/Bike-Homepage";
-import BikeAdminpage from "./pages/Bike-Adminpage";
-import BikeAdminpageSignup from "./pages/Bike-AdminpageSignup";
-import BikeAdminpageLogin from "./pages/Bike-AdminpageLogin";
-import PGRentalPage from "./pages/PG-rental";
-import PGRentPage from "./pages/PG-Homepage";
-import PGAdminpage from "./pages/PG-Adminpage";
-import PGAdminpageSignup from "./pages/PG-AdminpageSignup";
-import PGAdminpageLogin from "./pages/PG-AdminpageLogin";
+
+// bike rental pages
+import BikeRentPage from "./pages/bike/home";
+import BikeRentingPage from "./pages/bike/rental";
+import BikeAdminpageSignup from "./pages/bikeAdmin/signup/AdminSignup";
+import BikeAdminpageLogin from "./pages/bikeAdmin/login/AdminLogin";
+
+// pg rental pages
+import PGRentPage from "./pages/pg/home";
+import PGRentingPage from "./pages/pg/rental";
+import PGAdminpageSignup from "./pages/pgAdmin/signup/AdminSignup";
+import PGAdminpageLogin from "./pages/pgAdmin/login/AdminLogin";
 
 // Define the RouteConfig component
 const RouteConfig = () => {
@@ -28,15 +33,20 @@ const RouteConfig = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/service" element={<ServicePage />} />
-        <Route path="/bike-rental" element={<BikeRentalPage />} />
-        <Route path="/bike-rental/home" element={<BikeRentPage />} />
-        <Route path="/bike-rental/admin" element={<BikeAdminpage />} />
-        <Route path="/bike-rental/admin/signup" element={< BikeAdminpageSignup />} />
-        <Route path="/bike-rental/admin/login" element={<BikeAdminpageLogin />} />
-        <Route path="/pg-rental" element={<PGRentalPage />} />
-        <Route path="/pg-rental/home" element={<PGRentPage />} />
-        {/* <Route path="/pg-rental/admin/sample" element={<PGAdminpage />} /> */}
-        <Route path="/pg-rental/admin/signup" element={< PGAdminpageSignup />} />
+        <Route path="/bike-rental" element={<BikeRentPage />} />
+        <Route path="/bike-rental/home" element={<BikeRentingPage />} />
+        <Route
+          path="/bike-rental/admin/signup"
+          element={<BikeAdminpageSignup />}
+        />
+        <Route
+          path="/bike-rental/admin/login"
+          element={<BikeAdminpageLogin />}
+        />
+
+        <Route path="/pg-rental" element={<PGRentPage />} />
+        <Route path="/pg-rental/home" element={<PGRentingPage />} />
+        <Route path="/pg-rental/admin/signup" element={<PGAdminpageSignup />} />
         <Route path="/pg-rental/admin/login" element={<PGAdminpageLogin />} />
       </Routes>
       {/* <Footer /> */}
@@ -45,7 +55,6 @@ const RouteConfig = () => {
 };
 
 export default RouteConfig;
-
 
 // signup form page (/pg-rental/admin)
 
@@ -59,7 +68,6 @@ export default RouteConfig;
 // Link : Login (clicking will take you to login page)
 
 // submit button
-
 
 // Login form: login page (/pg-rental/admin/login)
 

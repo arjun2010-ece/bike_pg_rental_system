@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./PG-rental.css"
+import "./index.css"
 
 
-const PGRentalPage = () => {
+const PGHomePage = () => {
   return (
     <>
       <div className="pg-page">
@@ -19,4 +19,4 @@ const PGRentalPage = () => {
   )
 }
 
-export default PGRentalPage
+export default PGHomePage
