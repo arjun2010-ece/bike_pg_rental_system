@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FormInput from "../../../components/FormInput";
+import FormInput from "../../../../components/FormInput";
 import "./AdminLogin.css";
 
-const BikeAdminpageLogin = () => {
+const PGAdminpageLogin = () => {
   return (
-    <div className="admin-form-container">
-      <form className="admin-form">
+    <div className="admin-login-form-container-pg">
+      <form className="admin-login-form-pg">
         <FormInput
           label="Email"
           inputType="text"
@@ -22,7 +22,7 @@ const BikeAdminpageLogin = () => {
         />
 
         <div className="btn-group">
-          <Link to="/bike-rental/admin/signup">Sign up</Link>
+          <Link to="/pg-rental/admin/signup">Sign up</Link>
           <button>Login</button>
         </div>
       </form>
@@ -30,4 +30,4 @@ const BikeAdminpageLogin = () => {
   );
 };
 
-export default BikeAdminpageLogin;
+export default PGAdminpageLogin;

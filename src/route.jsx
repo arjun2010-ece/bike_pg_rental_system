@@ -14,14 +14,14 @@ import Header from "./pages/Header";
 // bike rental pages
 import BikeRentPage from "./pages/bike/home";
 import BikeRentingPage from "./pages/bike/rental";
-import BikeAdminpageSignup from "./pages/bikeAdmin/signup/AdminSignup";
-import BikeAdminpageLogin from "./pages/bikeAdmin/login/AdminLogin";
+import BikeAdminpageSignup from "./pages/bike/admin/signup/AdminSignup";
+import BikeAdminpageLogin from "./pages/bike/admin/login/AdminLogin";
 
 // pg rental pages
 import PGRentPage from "./pages/pg/home";
 import PGRentingPage from "./pages/pg/rental";
-import PGAdminpageSignup from "./pages/pgAdmin/signup/AdminSignup";
-import PGAdminpageLogin from "./pages/pgAdmin/login/AdminLogin";
+import PGAdminpageSignup from "./pages/pg/admin/signup/AdminSignup";
+import PGAdminpageLogin from "./pages/pg/admin/login/AdminLogin";
 
 // Define the RouteConfig component
 const RouteConfig = () => {

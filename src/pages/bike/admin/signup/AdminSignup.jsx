@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import FormInput from "../../../components/FormInput";
+import FormInput from "../../../../components/FormInput";
 import "./AdminSignup.css";
 
-const PGAdminpageSignup = () => {
+const BikeAdminpageSignup = () => {
   return (
-    <div className="admin-form-container">
-      <form className="admin-form">
+    <div className="admin-signup-form-container-bike">
+      <form className="admin-signup-form-bike">
         <FormInput
           label="Name"
           inputType="text"
@@ -45,7 +45,7 @@ const PGAdminpageSignup = () => {
         />
 
         <div className="btn-group">
-          <Link to="/pg-rental/admin/login">Already have an account?</Link>
+          <Link to="/bike-rental/admin/login">Already have an account?</Link>
           <button>Register</button>
         </div>
       </form>
@@ -53,4 +53,4 @@ const PGAdminpageSignup = () => {
   );
 };
 
-export default PGAdminpageSignup;
+export default BikeAdminpageSignup;
