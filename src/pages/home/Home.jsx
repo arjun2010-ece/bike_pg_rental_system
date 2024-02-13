@@ -5,16 +5,15 @@ import "./Home.css";
 
 const images = [
   '/image/bike-ride8.jpg',
-  '/image/bike-ride1.jpg',
-  '/image/bike-ride7.jpg',
-  '/image/bike-ride2.jpg',
-  '/image/bike-ride3.jpg',
   '/image/room1.jpg',
+  '/image/bike-ride1.jpg',
   '/image/room2.avif',
+  '/image/bike-ride7.jpg',
   '/image/room3.jpg',
+  '/image/bike-ride2.jpg',
   '/image/room4.jpg',
-  '/image/room5.png',
-  // Add more image URLs as needed
+  '/image/bike-ride3.jpg',
+  '/image/pg8.jpeg',
 ];
 
 const HomePage = () => {

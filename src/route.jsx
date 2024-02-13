@@ -4,12 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Import your page components
 
 // Generic page
-import HomePage from "./pages/Home";
-import AboutPage from "./pages/About";
-import ContactPage from "./pages/Contact";
-import ServicePage from "./pages/Service";
+import HomePage from "./pages/home/Home";
+import AboutPage from "./pages/about/About";
+import ContactPage from "./pages/contact-us/Contact";
+import ServicePage from "./pages/service/Service";
 
 import Header from "./pages/Header";
+import Footer from "./pages/Footer";
 
 // bike rental pages
 import BikeRentPage from "./pages/bike/home";
@@ -57,7 +58,7 @@ const RouteConfig = () => {
         <Route path="/pg-rental/admin/login" element={<PGAdminpageLogin />} />
         <Route path="/pg-rental/admin/dashboard" element={<PGAdminDashboard />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 };
