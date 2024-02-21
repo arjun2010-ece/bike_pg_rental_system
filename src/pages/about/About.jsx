@@ -3,8 +3,11 @@ import "./About.css";
 const AboutPage = () => {
 return (
     <main>
-      <h2 className="about-heading">About US</h2>
-      <hr/>
+      <div className="about-head">
+        <h2 className="about-heading">About US</h2>
+        {/* <hr/> */}
+
+      </div>
       <div className="about-us-container">
         <div className="about-us-content">
           <h1 className=" about-head about-mission">Our Mission</h1>

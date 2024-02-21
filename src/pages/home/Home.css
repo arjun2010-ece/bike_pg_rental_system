@@ -49,8 +49,6 @@ img {
 .main{
     height: 30vh;
     position : absolute;
-    bottom: 28%;
-    left: 1%;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
@@ -61,9 +59,19 @@ img {
   }
   
   
-  @media (min-width: 500px){
+  @media (max-width: 700px){
     .main{
       width: 100%;
+      bottom: 0;
+    }
+  }
+  
+  @media (min-width: 701px){
+    .main{
+      bottom: 25%;
+      left: 32%;
+      /* left: 12px; */
+      /* bottom: 10px; */
     }
   }
  
@@ -96,6 +104,13 @@ img {
   display: flex;
   gap: 1.5rem;
   list-style-type: none;
+ }
+
+ @media(max-width: 368px){
+  .site-navigation{
+    flex-direction: column;
+    gap: .4rem;
+  }
  }
 
 .site-navigation li{

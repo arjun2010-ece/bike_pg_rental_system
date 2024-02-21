@@ -13,7 +13,7 @@ const ContactPage = () => {
         <div className="contact-info">
 
           <div className="contact-us-detail">
-            <i class="fa-solid fa-location-dot"></i>
+            <i className="fa-solid fa-location-dot"></i>
             <div className="contact-us-address">
               <h3>Address</h3>
               <p>4671 Sugar Camp Road,<br/>Owatanna,Minnesota,<br/>55060</p>
@@ -21,7 +21,7 @@ const ContactPage = () => {
           </div>
 
           <div className="contact-us-detail">
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
             <div className="contact-us-address">
               <h3>Phone</h3>
               <p>+880 123 4567 890</p>
@@ -29,7 +29,7 @@ const ContactPage = () => {
           </div>
 
           <div className="contact-us-detail">
-            <i class="fa-regular fa-envelope"></i>
+            <i className="fa-regular fa-envelope"></i>
             <div className="contact-us-address">
               <h3>Email</h3>
               <p>wrub7d78!0e@temporary-mail.net</p>
@@ -39,11 +39,11 @@ const ContactPage = () => {
           <div className="contact-us-links">
             <h3>Follow Us</h3>
             <div className="contact-us-icon">
-              <i class="fa-brands fa-facebook-f"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-youtube"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-youtube"></i>
             </div>
           </div>
         </div>

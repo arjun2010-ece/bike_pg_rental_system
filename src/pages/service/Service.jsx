@@ -8,7 +8,7 @@ const ServicePage = () => {
         <h3>why choose us?</h3>
         {/* <h2>FEATURES</h2> */}
         <h2>OUR FEATURES & SERVICES</h2>
-        <p>--------------<i class="fa-solid fa-star"></i>--------------</p>
+        <p>--------------<i className="fa-solid fa-star"></i>--------------</p>
       </div>
 
       <div className="service-container">
@@ -18,7 +18,7 @@ const ServicePage = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illo velit voluptatibus impedit at sed quod id quos, eveniet iste.</p>
         </div>
 
-        <div className="service-card">
+        <div className="service-card card2">
           <i className="fa-solid fa-motorcycle"></i>
           <h2>BIKE RENTAL</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illo velit voluptatibus impedit at sed quod id quos, eveniet iste.</p>

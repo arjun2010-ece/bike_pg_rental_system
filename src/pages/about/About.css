@@ -1,13 +1,17 @@
 .about-heading{
+    margin: auto;
     text-align: center;
     color: red;
+    border-bottom: 2px solid #d5c7c7;
+    /* width: 62rem; */
+    margin: 0 2rem 0 6rem;
 }
 
-hr{
+/* hr{
     border-bottom: 2px solid #d5c7c7;
     width: 62rem;
     margin: 0 2rem 0 6rem;
-}
+} */
 
 .about-us-container{
     display: flex;
@@ -32,6 +36,7 @@ hr{
 
 .about-body{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
 }

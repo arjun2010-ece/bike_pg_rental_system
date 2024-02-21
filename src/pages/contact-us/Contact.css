@@ -14,14 +14,17 @@
 
 .contact-us-heading p{
     width: 900px;
+    max-width: 90%;
     text-align:center;
 }
 
 .contact-us-content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    margin-bottom: 1rem;
 }
 
 .contact-us-detail{
@@ -49,8 +52,15 @@
 
 .contact-us-container{
     width: 40%;
+    max-width: 100%;
     background-color: #fff;
     padding: 2rem;
+}
+
+@media(max-width: 530px){
+    .contact-us-container{
+        width: 80%;
+    }
 }
 
 .contact-us-container h2{

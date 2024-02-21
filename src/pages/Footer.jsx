@@ -14,13 +14,13 @@ const Footer = () => {
         <div className="footer-links">
           <h2>Links</h2>
           <div className="footer-fonts">
-            <Link to="/"> <i class="fa-solid fa-arrow-right"> <span>Home</span> </i></Link>
+            <Link to="/"> <i className="fa-solid fa-arrow-right"> <span>Home</span> </i></Link>
 
-            <Link to="/about"> <i class="fa-solid fa-arrow-right"> <span>About</span> </i></Link>
+            <Link to="/about"> <i className="fa-solid fa-arrow-right"> <span>About</span> </i></Link>
 
-            <Link to="/contact"> <i class="fa-solid fa-arrow-right"> <span>Contact-Us</span> </i></Link>
+            <Link to="/contact"> <i className="fa-solid fa-arrow-right"> <span>Contact-Us</span> </i></Link>
 
-            <Link to="/service"> <i class="fa-solid fa-arrow-right"> <span>Service</span> </i></Link>
+            <Link to="/service"> <i className="fa-solid fa-arrow-right"> <span>Service</span> </i></Link>
            
           </div>
         </div>
@@ -28,18 +28,18 @@ const Footer = () => {
         <div className="footer-services">
           <h2>Services</h2>
           <div className="footer-fonts">
-            <Link to="/pg-rental"> <i class="fa-solid fa-arrow-right"> <span>PG Rental</span> </i></Link>
+            <Link to="/pg-rental"> <i className="fa-solid fa-arrow-right"> <span>PG Rental</span> </i></Link>
 
-            <Link to="/bike-rental"> <i class="fa-solid fa-arrow-right"> <span>Bike Rental</span> </i></Link>
+            <Link to="/bike-rental"> <i className="fa-solid fa-arrow-right"> <span>Bike Rental</span> </i></Link>
           </div>
         </div>
 
         <div className="footer-query">
           <h2>Have a Questions?</h2>
           <div className="footer-fonts">
-            <i class="fa-solid fa-location-dot"> <span>Pune,India</span> </i>
-            <i class="fa-solid fa-phone"> <span>+91 9874563215</span> </i>
-            <i class="fa-regular fa-envelope"> <span>info@thapatechnical.com</span> </i>
+            <i className="fa-solid fa-location-dot"> <span>Pune,India</span> </i>
+            <i className="fa-solid fa-phone"> <span>+91 9874563215</span> </i>
+            <i className="fa-regular fa-envelope"> <span>info@thapatechnical.com</span> </i>
           </div>
         </div>
       </div>
@@ -47,11 +47,11 @@ const Footer = () => {
       <div className="footer-social-links-content">
         <h2>Follow Us</h2>
         <div className="footer-social-links">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-youtube"></i>
         </div>
       </div>
 

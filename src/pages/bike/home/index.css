@@ -6,11 +6,16 @@
     height: 40vh;
 }
 
-
 .bike-rentals {
   display: flex;
   gap: 1.5rem;
   list-style-type: none;
+}
+
+@media(max-width:370px){
+  .bike-rentals{
+    flex-direction: column;
+  }
 }
 
 .bike-rentals li {

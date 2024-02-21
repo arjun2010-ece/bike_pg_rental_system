@@ -5,11 +5,16 @@
     height: 40vh;
 }
 
-
 .pg-rentals {
   display: flex;
   gap: 1.5rem;
   list-style-type: none;
+}
+
+@media(max-width: 370px){
+  .pg-rentals {
+     flex-direction: column;
+  }
 }
 
 .pg-rentals li {
