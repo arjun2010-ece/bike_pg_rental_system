@@ -24,8 +24,16 @@
     text-align: justify;
 }
 
+.footer-about h2,.footer-links h2,.footer-services h2,.footer-query h2,.footer-social-links-content h2{
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 1.5rem;
+    color: #ef6b6b;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); */
+}
+
 .footer-fonts span{
     margin-left: .4rem;
+    /* transition: transform 1s ease-out; */
 }
 
 .footer-fonts a{
@@ -39,7 +47,7 @@
 
 .footer-fonts i{
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem;
 }
 
 .footer-detail{
@@ -53,7 +61,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .7rem;
+    gap: 1rem;
+    padding-top: 1.5rem;
 }
 
 .footer-social-links{

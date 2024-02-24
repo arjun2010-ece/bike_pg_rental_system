@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+// import { Fragment } from "react";
 import CardList from "../../../components/CardList";
 import "./index.css";
 
@@ -77,7 +77,7 @@ const PGRentPage = () => {
       <div className="pg-item-list">
         <q className="pg-home-text">Find a home far from Home</q>
       </div>
-      <h2>PG Rental System</h2>
+      <h2 id="pg-heading">PG Rental System</h2>
       <CardList data={pgData} />
       {/* Other PG-related components */}
     </div>

@@ -14,13 +14,14 @@ const Footer = () => {
         <div className="footer-links">
           <h2>Links</h2>
           <div className="footer-fonts">
-            <Link to="/"> <i className="fa-solid fa-arrow-right"> <span>Home</span> </i></Link>
+            <Link to="/"> <i className="fa-solid fa-arrow-right" id="footer-fonts-home"> <span>Home</span> </i></Link>
 
             <Link to="/about"> <i className="fa-solid fa-arrow-right"> <span>About</span> </i></Link>
 
             <Link to="/contact"> <i className="fa-solid fa-arrow-right"> <span>Contact-Us</span> </i></Link>
 
             <Link to="/service"> <i className="fa-solid fa-arrow-right"> <span>Service</span> </i></Link>
+            <p> <i className="fa-solid fa-arrow-right"> <span>Terms & Conditions</span> </i></p>
            
           </div>
         </div>
@@ -47,7 +48,7 @@ const Footer = () => {
       <div className="footer-social-links-content">
         <h2>Follow Us</h2>
         <div className="footer-social-links">
-          <i className="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-facebook"></i>
           <i className="fa-brands fa-twitter"></i>
           <i className="fa-brands fa-instagram"></i>
           <i className="fa-brands fa-linkedin"></i>

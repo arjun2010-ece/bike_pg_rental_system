@@ -8,7 +8,7 @@ const BikeRentPage = () => {
       id: 1,
       title: "Bike Name:Duke-125",
       description: "Company:KTM",
-      imageUrl: "../image/bike2.jpg",
+      imageUrl: "../image/bike7.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -16,7 +16,7 @@ const BikeRentPage = () => {
       id: 2,
       title: "Bike Name:Royal Enfield Hunter 350",
       description: "Company:Suzuki",
-      imageUrl: "../image/bike4.jpg",
+      imageUrl: "../image/bike2.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -24,7 +24,7 @@ const BikeRentPage = () => {
       id: 3,
       title: "Bike Name:Royal Enfield Hunter 350",
       description: "Company:Suzuki",
-      imageUrl: "../image/bike5.jpg",
+      imageUrl: "../image/scooty4.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -32,7 +32,7 @@ const BikeRentPage = () => {
       id: 4,
       title: "Bike Name:KI300S",
       description: "Company:Triumph",
-      imageUrl: "../image/bike6.jpg",
+      imageUrl: "../image/bike3.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -40,7 +40,7 @@ const BikeRentPage = () => {
       id: 5,
       title: "Bike Name:Thruxton-900",
       description: "Company:Suzuki",
-      imageUrl: "../image/bike7.jpg",
+      imageUrl: "../image/scooty5.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -48,7 +48,7 @@ const BikeRentPage = () => {
       id: 6,
       title: "Bike Name:Royal Enfield Bullet",
       description: "Company:Suzuki",
-      imageUrl: "../image/bike3.jpg",
+      imageUrl: "../image/bike4.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -56,7 +56,7 @@ const BikeRentPage = () => {
       id: 7,
       title: "Bike Name:Hero Xtreme 125R",
       description: "Company:Suzuki",
-      imageUrl: "../image/scooty1.jpg",
+      imageUrl: "../image/bike5.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -64,7 +64,7 @@ const BikeRentPage = () => {
       id: 8,
       title: "Bike Name:Royal Enfield Hunter 350",
       description: "Company:Suzuki",
-      imageUrl: "../image/scooty2.jpg",
+      imageUrl: "../image/scooty6.jpeg",
       rent:"Rent",
       view:"View",
     },
@@ -74,7 +74,7 @@ const BikeRentPage = () => {
   return (
     <div>
       <div className="bike-item-list"></div>
-      <h2>Bike Rental System</h2>
+      <h2 id="bike-heading">Bike Rental System</h2>
       <CardList data={bikeData} />
       {/* Other bike-related components */}
     </div>

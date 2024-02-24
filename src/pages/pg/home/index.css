@@ -1,4 +1,5 @@
 .pg-page{
+    background: url(.https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/GenericDesktop_Banner-247ce8d….webp);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,6 +7,7 @@
 }
 
 .pg-rentals {
+  background: url(.https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/GenericDesktop_Banner-247ce8d….webp);
   display: flex;
   gap: 1.5rem;
   list-style-type: none;

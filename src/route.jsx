@@ -28,6 +28,7 @@ import PGAdminDashboard from "./pages/pg/dashboard";
 
 // Define the RouteConfig component
 const RouteConfig = () => {
+  // let User="user"
   return (
     <Router>
       <Header />
@@ -37,7 +38,19 @@ const RouteConfig = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/bike-rental" element={<BikeRentPage />} />
+        {/* {
+        User ?  */}
         <Route path="/bike-rental/home" element={<BikeRentingPage />} />
+
+        {/* : */}
+
+        <Route
+          path="/bike-rental/admin/dashboard"
+          element={<BikeAdminDashboard />}
+        />
+
+        {/* } */}
+
         <Route
           path="/bike-rental/admin/signup"
           element={<BikeAdminpageSignup />}
@@ -47,10 +60,6 @@ const RouteConfig = () => {
           element={<BikeAdminpageLogin />}
         />
 
-        <Route
-          path="/bike-rental/admin/dashboard"
-          element={<BikeAdminDashboard />}
-        />
 
         <Route path="/pg-rental" element={<PGRentPage />} />
         <Route path="/pg-rental/home" element={<PGRentingPage />} />

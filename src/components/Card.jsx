@@ -1,12 +1,9 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import './Card.css';
 
 const Card = ({ title, description, imageUrl, rent, view, rentalDetail }) => {
   const [showDetails, setShowDetails] = useState(false);
-
-  const handleViewClick = () => {
-    setShowDetails(!showDetails);
-  };
 
   return (
     <div className="card">
@@ -16,7 +13,7 @@ const Card = ({ title, description, imageUrl, rent, view, rentalDetail }) => {
         <p className='heading'>{description}</p>
         <div className="card-btn">
           <button id="card-btn1">{rent}</button>
-          <button id="card-btn2" onClick={handleViewClick}>{view}</button>
+          <button id="card-btn2">{view}</button>
         </div>
         {showDetails && (
           <div className="details">

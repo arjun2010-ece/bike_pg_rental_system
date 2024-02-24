@@ -34,7 +34,7 @@
   height: 2px; 
   bottom: -2px;
   left: 0;
-  background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff); 
+  /* background: linear-gradient(90deg, yellow, #00ff00, #0000ff);  */
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
 }
@@ -56,5 +56,7 @@
 }
 
 .container a:hover{
-    color: rgb(255, 0, 157);
+    color: #FBA834;
+    /* font-weight: bold; */
+    /* color: rgb(255, 0, 157); */
 }

@@ -4,15 +4,15 @@ import "./Home.css";
 
 
 const images = [
-  '/image/bike-ride8.jpg',
+  // '/image/bike-ride8.jpg',
   '/image/room1.jpg',
-  '/image/bike-ride1.jpg',
+  // '/image/bike-ride1.jpg',
   '/image/room2.avif',
-  '/image/bike-ride7.jpg',
-  '/image/room3.jpg',
+  // '/image/bike-ride7.jpg',
+  // '/image/room3.jpg',
   '/image/bike-ride2.jpg',
-  '/image/room4.jpg',
-  '/image/bike-ride3.jpg',
+  // '/image/room4.jpg',
+  // '/image/bike-ride3.jpg',
   '/image/pg8.jpeg',
 ];
 
@@ -22,7 +22,7 @@ const HomePage = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 2000);
+    }, 6000);
 
     // Cleanup the interval when the component is unmounted
     return () => clearInterval(intervalId);
@@ -47,7 +47,7 @@ const HomePage = () => {
         {/* main content */}
           <main className="main">
             <div className="head">
-              <h1 className="heading">Ride,Rest and Repeat</h1>
+              <h1 id="home-heading">Ride,Rest and Repeat</h1>
             </div>
 
             <q className="home-text">

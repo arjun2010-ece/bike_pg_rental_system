@@ -26,9 +26,10 @@
   flex: 0 0 100%;
 }
 
-img {
+.image img {
   width: 100%;
   height: auto;
+  filter: blur(7px);
 }
 
 .next-button {
@@ -70,24 +71,32 @@ img {
     .main{
       bottom: 25%;
       left: 32%;
-      /* left: 12px; */
-      /* bottom: 10px; */
     }
   }
  
- .heading{
-   color: #606c38;
+ #home-heading{
+  width: 490px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  color: transparent;
+  background: linear-gradient(90deg,#533618,#c23737,#33dd24);
+  background-clip: text;
+   /* color: #606c38; */
  }
 
 .home-text{
     /* position: absolute; */
     font-family: 'Open Sans', sans-serif;
-    color: #b42e2e;
-    width: 780px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 760px;
     text-align: justify;
-    padding: 1.7rem 9.4rem 1rem 9.4rem;
+    padding: 1.7rem 8rem 1rem 8rem;
     line-height: 2.1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(140, 182, 111, 0.2);
+    /* background-color: #e2bcbc; */
+    /* border: 3px solid red; */
  }
 
  @media (max-width: 500px) {
@@ -114,20 +123,21 @@ img {
  }
 
 .site-navigation li{
-  border: 1px dashed black;
+  border: 1px solid black;
+  border-radius: 8px;
   padding: 8px;
   margin-top: 1rem;
-  background-color: #FDFFFC;
+  /* background-color: #FDFFFC; */
+  background-color: #c4e4b3;
 }
 
 .site-navigation li a{
+  font-family: "Bungee Spice", sans-serif;
    text-decoration: none;
    color: #F06543;
-   font-size: 1.5rem;
+   font-size: 1.3rem;
  }
 
  .site-navigation li a:hover{
-    /* padding: 6px; */
-    /* background-color: yellow; */
     color: #332eb4;
  }
