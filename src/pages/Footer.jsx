@@ -48,7 +48,7 @@ const Footer = () => {
       <div className="footer-social-links-content">
         <h2>Follow Us</h2>
         <div className="footer-social-links">
-          <i class="fa-brands fa-square-facebook"></i>
+          <i className="fa-brands fa-square-facebook"></i>
           <i className="fa-brands fa-twitter"></i>
           <i className="fa-brands fa-instagram"></i>
           <i className="fa-brands fa-linkedin"></i>

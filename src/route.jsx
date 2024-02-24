@@ -14,6 +14,7 @@ import Footer from "./pages/Footer";
 
 // bike rental pages
 import BikeRentPage from "./pages/bike/home";
+import BikeViewDetailPage from "./pages/bike/view";
 import BikeRentingPage from "./pages/bike/rental";
 import BikeAdminpageSignup from "./pages/bike/admin/signup/AdminSignup";
 import BikeAdminpageLogin from "./pages/bike/admin/login/AdminLogin";
@@ -26,6 +27,9 @@ import PGAdminpageSignup from "./pages/pg/admin/signup/AdminSignup";
 import PGAdminpageLogin from "./pages/pg/admin/login/AdminLogin";
 import PGAdminDashboard from "./pages/pg/dashboard";
 
+// context
+import { BikeProvider } from "./context";
+
 // Define the RouteConfig component
 const RouteConfig = () => {
   // let User="user"
@@ -37,35 +41,37 @@ const RouteConfig = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/service" element={<ServicePage />} />
-        <Route path="/bike-rental" element={<BikeRentPage />} />
-        {/* {
-        User ?  */}
-        <Route path="/bike-rental/home" element={<BikeRentingPage />} />
 
-        {/* : */}
+        <BikeProvider>
+          <Route path="/bike-rental" element={<BikeRentPage />} />
+          <Route path="/bike-rental/home" element={<BikeRentingPage />} />
+          <Route
+            path="/bike-rental/:bikeId/view/details"
+            element={<BikeViewDetailPage />}
+          />
+          <Route
+            path="/bike-rental/admin/dashboard"
+            element={<BikeAdminDashboard />}
+          />
 
-        <Route
-          path="/bike-rental/admin/dashboard"
-          element={<BikeAdminDashboard />}
-        />
-
-        {/* } */}
-
-        <Route
-          path="/bike-rental/admin/signup"
-          element={<BikeAdminpageSignup />}
-        />
-        <Route
-          path="/bike-rental/admin/login"
-          element={<BikeAdminpageLogin />}
-        />
-
+          <Route
+            path="/bike-rental/admin/signup"
+            element={<BikeAdminpageSignup />}
+          />
+          <Route
+            path="/bike-rental/admin/login"
+            element={<BikeAdminpageLogin />}
+          />
+        </BikeProvider>
 
         <Route path="/pg-rental" element={<PGRentPage />} />
         <Route path="/pg-rental/home" element={<PGRentingPage />} />
         <Route path="/pg-rental/admin/signup" element={<PGAdminpageSignup />} />
         <Route path="/pg-rental/admin/login" element={<PGAdminpageLogin />} />
-        <Route path="/pg-rental/admin/dashboard" element={<PGAdminDashboard />} />
+        <Route
+          path="/pg-rental/admin/dashboard"
+          element={<PGAdminDashboard />}
+        />
       </Routes>
       <Footer />
     </Router>
